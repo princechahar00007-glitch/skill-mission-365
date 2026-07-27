@@ -1,0 +1,13 @@
+SKILL MISSION NOTES.
+
+DAY 1 :
+
+TODAY I LERAN:-
+
+Git = Time machine for your code.
+2. Git Hub = Git was in our laptop but the GitHub in internet.
+3. PWD = main kis folder mein hoon ?
+4. LS = folder ke ander kya haii?
+5. CD = dusre folder mein jaana
+6. GIT INIT = git repository shuru karna
+7. GIT STATUS = git ka dashboard
