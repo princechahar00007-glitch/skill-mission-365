@@ -365,3 +365,256 @@ is_student = True
 Example:
 print(type(name))
 print(type(age))
+
+====================================
+PYTHON DAY 3
+====================================
+
+TODAY I LEARN:-
+
+1. Arithmetic Operators
+
+Arithmetic Operators are used to perform mathematical calculations.
+
+Operators:
+
++  -> Addition
+-  -> Subtraction
+*  -> Multiplication
+/  -> Division
+%  -> Modulus (Remainder)
+// -> Floor Division
+** -> Power
+
+Example:
+
+a = 10
+b = 5
+
+print("Addition :", a + b)
+print("Subtraction :", a - b)
+print("Multiplication :", a * b)
+print("Division :", a / b)
+print("Modulus :", a % b)
+print("Floor Division :", a // b)
+print("Power :", a ** b)
+
+--------------------------------------------------
+
+2. Assignment Operator
+
+Assignment Operator is used to assign a value to a variable.
+
+Example:
+
+x = 10
+print(x)
+
+--------------------------------------------------
+
+3. Arithmetic Assignment Operators
+
++=  -> Add and Assign
+-=  -> Subtract and Assign
+*=  -> Multiply and Assign
+/=  -> Divide and Assign
+
+Example:
+
+x = 10
+
+x += 5
+print(x)
+
+x *= 2
+print(x)
+
+--------------------------------------------------
+
+4. Mini Calculator Project
+
+Today I created my first Python Project.
+
+Features:
+
+• User enters first number.
+• User enters second number.
+• Program performs Addition.
+• Program performs Subtraction.
+• Program performs Multiplication.
+• Program performs Division.
+
+Example:
+
+num1 = int(input("Enter First Number: "))
+num2 = int(input("Enter Second Number: "))
+
+print("Addition :", num1 + num2)
+print("Subtraction :", num1 - num2)
+print("Multiplication :", num1 * num2)
+print("Division :", num1 / num2)
+
+--------------------------------------------------
+
+DAY 3 SUMMARY
+
+✓ Arithmetic Operators
+✓ Assignment Operator
+✓ Arithmetic Assignment Operators
+✓ Mini Calculator Project
+
+====================================
+PYTHON DAY 5
+====================================
+
+TODAY I LEARN:-
+
+1. Comparison Operators
+
+Comparison Operators are used to compare two values.
+
+Operators:
+
+==  -> Equal To
+!=  -> Not Equal To
+>   -> Greater Than
+<   -> Less Than
+>=  -> Greater Than or Equal To
+<=  -> Less Than or Equal To
+
+Example:
+
+print(10 == 10)
+print(10 != 5)
+print(20 > 10)
+print(5 < 10)
+
+--------------------------------------------------
+
+2. Boolean
+
+Boolean Data Type has only two values.
+
+True
+False
+
+Example:
+
+result = (20 > 10)
+
+print(result)
+print(type(result))
+
+--------------------------------------------------
+
+3. if Statement
+
+The if statement is used to check a condition.
+
+Syntax:
+
+if condition:
+    print("Code")
+
+Example:
+
+age = 18
+
+if age >= 18:
+    print("You Can Vote")
+
+--------------------------------------------------
+
+4. if - else Statement
+
+If the condition is True, the if block executes.
+Otherwise, the else block executes.
+
+Example:
+
+age = 16
+
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+
+--------------------------------------------------
+
+5. elif Statement
+
+The elif statement is used to check multiple conditions.
+
+Example:
+
+marks = 85
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+else:
+    print("Fail")
+
+--------------------------------------------------
+
+6. Logical Operators
+
+AND
+
+Both conditions must be True.
+
+Example:
+
+if age >= 18 and has_id:
+    print("Entry Allowed")
+
+OR
+
+At least one condition must be True.
+
+Example:
+
+if is_student or age < 18:
+    print("Discount Available")
+
+NOT
+
+The NOT operator reverses the result.
+
+Example:
+
+is_logged_in = False
+
+if not is_logged_in:
+    print("Please Login")
+
+--------------------------------------------------
+
+7. Smart Age Checker Project
+
+Today I created my second Python Project.
+
+Features:
+
+• User Name Input
+• User Age Input
+• Adult / Minor Check
+• Voting Eligibility
+• Driving License Eligibility
+• Senior Citizen Check
+• Entry Check using AND
+• Student Discount using OR
+• Login Check using NOT
+
+--------------------------------------------------
+
+DAY 5 SUMMARY
+
+✓ Comparison Operators
+✓ Boolean
+✓ if Statement
+✓ if - else Statement
+✓ elif Statement
+✓ Logical Operators
+✓ Smart Age Checker Project
