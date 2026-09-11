@@ -618,3 +618,218 @@ DAY 5 SUMMARY
 ✓ elif Statement
 ✓ Logical Operators
 ✓ Smart Age Checker Project
+
+
+====================================
+PYTHON DAY 6
+====================================
+
+TODAY I LEARN:-
+
+--------------------------------------------------
+
+1. for Loop
+
+The for loop is used to repeat a block of code a fixed number of times.
+
+Syntax:
+
+for variable in range(number):
+    print("Code")
+
+Example:
+
+for i in range(5):
+    print("Hello")
+
+--------------------------------------------------
+
+2. range()
+
+The range() function generates a sequence of numbers.
+
+Types of range():
+
+1. range(stop)
+
+Example:
+
+range(5)
+
+Output:
+0 1 2 3 4
+
+----------------------------
+
+2. range(start, stop)
+
+Example:
+
+for i in range(1, 6):
+    print(i)
+
+Output:
+1 2 3 4 5
+
+----------------------------
+
+3. range(start, stop, step)
+
+Example:
+
+for i in range(2, 11, 2):
+    print(i)
+
+Output:
+2 4 6 8 10
+
+--------------------------------------------------
+
+3. while Loop
+
+The while loop runs until the condition becomes False.
+
+Syntax:
+
+while condition:
+    print("Code")
+
+Example:
+
+i = 1
+
+while i <= 5:
+    print(i)
+    i += 1
+
+--------------------------------------------------
+
+4. Infinite Loop
+
+If we forget to update the variable inside a while loop, the loop never stops.
+
+Wrong Example:
+
+i = 1
+
+while i <= 5:
+    print(i)
+
+Reason:
+i never changes, so the condition always remains True.
+
+--------------------------------------------------
+
+5. break Statement
+
+The break statement immediately stops the loop.
+
+Example:
+
+for i in range(1,11):
+
+    if i == 6:
+        break
+
+    print(i)
+
+Output:
+1
+2
+3
+4
+5
+
+--------------------------------------------------
+
+6. continue Statement
+
+The continue statement skips the current iteration and moves to the next one.
+
+Example:
+
+for i in range(1,6):
+
+    if i == 3:
+        continue
+
+    print(i)
+
+Output:
+1
+2
+4
+5
+
+--------------------------------------------------
+
+7. Nested Loop
+
+A Nested Loop means one loop inside another loop.
+
+Example:
+
+for i in range(3):
+
+    for j in range(3):
+        print(i, j)
+
+--------------------------------------------------
+
+8. Star Pattern
+
+Example:
+
+for i in range(3):
+
+    for j in range(5):
+        print("*", end="")
+
+    print()
+
+Output:
+
+*****
+*****
+*****
+
+--------------------------------------------------
+
+9. Table Generator
+
+Using a for loop, we can create a multiplication table.
+
+Example:
+
+for i in range(1,11):
+    print(num, "x", i, "=", num*i)
+
+--------------------------------------------------
+
+10. Smart Table Generator Project
+
+Features:
+
+• User Name Input
+• Number Input
+• Table Limit Input
+• Dynamic Table Generation
+• for Loop
+• range()
+• if-else
+• Professional Output
+
+--------------------------------------------------
+
+DAY 6 SUMMARY
+
+✓ for Loop
+✓ range()
+✓ while Loop
+✓ Infinite Loop
+✓ break
+✓ continue
+✓ Nested Loop
+✓ Star Pattern
+✓ Table Generator
+✓ Smart Table Generator Project
