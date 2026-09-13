@@ -833,3 +833,231 @@ DAY 6 SUMMARY
 ✓ Star Pattern
 ✓ Table Generator
 ✓ Smart Table Generator Project
+
+====================================
+PYTHON DAY 7
+====================================
+
+TODAY I LEARN:-
+
+--------------------------------------------------
+
+1. List
+
+A List is used to store multiple values in a single variable.
+
+Syntax:
+
+list_name = [item1, item2, item3]
+
+Example:
+
+fruits = ["Apple", "Banana", "Mango"]
+
+print(fruits)
+
+--------------------------------------------------
+
+2. List Rules
+
+• List is written inside square brackets [ ]
+• Items are separated by commas
+• A list can store different data types
+• Lists are ordered and mutable (can be changed)
+
+Example:
+
+data = ["Prince", 20, True, 89.5]
+
+--------------------------------------------------
+
+3. Indexing
+
+Every item in a list has an index number.
+
+Index starts from 0.
+
+Example:
+
+fruits = ["Apple", "Banana", "Mango"]
+
+print(fruits[0])
+
+Output:
+
+Apple
+
+--------------------------------------------------
+
+4. Negative Indexing
+
+Negative indexing starts from the end.
+
+-1 means last item.
+
+Example:
+
+fruits = ["Apple", "Banana", "Mango"]
+
+print(fruits[-1])
+
+Output:
+
+Mango
+
+--------------------------------------------------
+
+5. Slicing
+
+Slicing is used to get multiple items from a list.
+
+Syntax:
+
+list[start:stop]
+
+Remember:
+
+✓ Start Index Included
+✓ Stop Index Excluded
+
+Example:
+
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+
+print(fruits[1:3])
+
+Output:
+
+['Banana', 'Mango']
+
+--------------------------------------------------
+
+6. append()
+
+append() adds a new item at the end of the list.
+
+Example:
+
+fruits = ["Apple", "Banana"]
+
+fruits.append("Mango")
+
+print(fruits)
+
+Output:
+
+['Apple', 'Banana', 'Mango']
+
+--------------------------------------------------
+
+7. insert()
+
+insert() adds an item at a specific index.
+
+Syntax:
+
+list.insert(index, value)
+
+Example:
+
+numbers = [10, 20, 40]
+
+numbers.insert(2, 30)
+
+print(numbers)
+
+Output:
+
+[10, 20, 30, 40]
+
+--------------------------------------------------
+
+8. remove()
+
+remove() deletes an item by its value.
+
+Example:
+
+fruits = ["Apple", "Banana", "Mango"]
+
+fruits.remove("Banana")
+
+print(fruits)
+
+Output:
+
+['Apple', 'Mango']
+
+--------------------------------------------------
+
+9. pop()
+
+pop() removes an item using its index.
+
+Example:
+
+fruits = ["Apple", "Banana", "Mango"]
+
+fruits.pop(1)
+
+print(fruits)
+
+Output:
+
+['Apple', 'Mango']
+
+If no index is given:
+
+fruits.pop()
+
+It removes the last item.
+
+--------------------------------------------------
+
+10. Day 7 Master Program
+
+Topics Used:
+
+✓ List
+✓ Indexing
+✓ Negative Indexing
+✓ Slicing
+✓ append()
+✓ insert()
+✓ remove()
+✓ pop()
+
+--------------------------------------------------
+
+11. Project 4
+
+Project Name:
+
+Student Record Manager
+
+Features:
+
+• Create Student List
+• Show First Student
+• Show Last Student
+• Show First Three Students
+• Add New Student
+• Insert Student
+• Remove Student
+• Delete Last Student
+• Display Final Student List
+
+--------------------------------------------------
+
+DAY 7 SUMMARY
+
+✓ List
+✓ Indexing
+✓ Negative Indexing
+✓ Slicing
+✓ append()
+✓ insert()
+✓ remove()
+✓ pop()
+✓ Day 7 Master Program
+✓ Student Record Manager Project
