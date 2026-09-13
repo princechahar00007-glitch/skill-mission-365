@@ -1061,3 +1061,242 @@ DAY 7 SUMMARY
 ✓ pop()
 ✓ Day 7 Master Program
 ✓ Student Record Manager Project
+
+====================================
+PYTHON DAY 8
+====================================
+
+TODAY I LEARN:-
+
+--------------------------------------------------
+
+1. String
+
+A String is a collection of characters.
+
+Strings are written inside single quotes (' ')
+or double quotes (" ").
+
+Example:
+
+name = "Prince"
+
+city = 'Jaipur'
+
+--------------------------------------------------
+
+2. String Rules
+
+• Strings store text.
+• Strings can use single or double quotes.
+• Numbers inside quotes are also strings.
+
+Example:
+
+age = "20"
+
+print(type(age))
+
+Output:
+
+<class 'str'>
+
+--------------------------------------------------
+
+3. String Indexing
+
+Every character has an index.
+
+Index starts from 0.
+
+Example:
+
+name = "Prince"
+
+print(name[0])
+
+Output:
+
+P
+
+--------------------------------------------------
+
+4. Negative Indexing
+
+Negative indexing starts from the end.
+
+-1 means last character.
+
+Example:
+
+name = "Prince"
+
+print(name[-1])
+
+Output:
+
+e
+
+--------------------------------------------------
+
+5. String Slicing
+
+Used to get a part of a string.
+
+Syntax:
+
+string[start:stop]
+
+Remember:
+
+✓ Start Included
+✓ Stop Excluded
+
+Example:
+
+name = "Prince"
+
+print(name[0:3])
+
+Output:
+
+Pri
+
+--------------------------------------------------
+
+6. upper()
+
+Converts all letters into uppercase.
+
+Example:
+
+name = "prince"
+
+print(name.upper())
+
+Output:
+
+PRINCE
+
+--------------------------------------------------
+
+7. lower()
+
+Converts all letters into lowercase.
+
+Example:
+
+name = "PRINCE"
+
+print(name.lower())
+
+Output:
+
+prince
+
+--------------------------------------------------
+
+8. replace()
+
+Replaces one text with another.
+
+Syntax:
+
+string.replace(old, new)
+
+Example:
+
+text = "I Love Python"
+
+print(text.replace("Python", "Coding"))
+
+Output:
+
+I Love Coding
+
+--------------------------------------------------
+
+9. find()
+
+Returns the index of a character or word.
+
+If not found, it returns -1.
+
+Example:
+
+text = "Python"
+
+print(text.find("h"))
+
+Output:
+
+3
+
+--------------------------------------------------
+
+10. count()
+
+Counts how many times a character or word appears.
+
+Example:
+
+text = "banana"
+
+print(text.count("a"))
+
+Output:
+
+3
+
+--------------------------------------------------
+
+11. Day 8 Master Program
+
+Topics Used:
+
+✓ String
+✓ String Indexing
+✓ Negative Indexing
+✓ String Slicing
+✓ upper()
+✓ lower()
+✓ replace()
+✓ find()
+✓ count()
+
+--------------------------------------------------
+
+12. Project 5
+
+Project Name:
+
+Smart String Analyzer
+
+Features:
+
+• User Input
+• Original String
+• First Character
+• Last Character
+• String Slicing
+• Upper Case
+• Lower Case
+• Replace Characters
+• Find Character
+• Count Character
+
+--------------------------------------------------
+
+DAY 8 SUMMARY
+
+✓ String
+✓ String Indexing
+✓ Negative Indexing
+✓ String Slicing
+✓ upper()
+✓ lower()
+✓ replace()
+✓ find()
+✓ count()
+✓ Day 8 Master Program
+✓ Smart String Analyzer Project
