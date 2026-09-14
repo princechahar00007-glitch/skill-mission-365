@@ -1300,3 +1300,262 @@ DAY 8 SUMMARY
 ✓ count()
 ✓ Day 8 Master Program
 ✓ Smart String Analyzer Project
+
+====================================
+PYTHON DAY 9
+====================================
+
+TODAY I LEARN:-
+
+--------------------------------------------------
+
+1. Tuple
+
+A Tuple is used to store multiple values in a single variable.
+
+Tuple is created using round brackets ( ).
+
+Example:
+
+fruits = ("Apple", "Banana", "Mango")
+
+--------------------------------------------------
+
+2. Tuple Rules
+
+• Tuple uses round brackets ( )
+• Tuple can store multiple data types
+• Tuple is ordered
+• Tuple is immutable (cannot be changed)
+
+Example:
+
+data = ("Prince", 20, True, 89.5)
+
+--------------------------------------------------
+
+3. Tuple Indexing
+
+Every item has an index.
+
+Index starts from 0.
+
+Example:
+
+subjects = ("Python", "DSA", "Maths")
+
+print(subjects[0])
+
+Output:
+
+Python
+
+--------------------------------------------------
+
+4. Negative Indexing
+
+Negative indexing starts from the end.
+
+-1 means last item.
+
+Example:
+
+subjects = ("Python", "DSA", "Maths")
+
+print(subjects[-1])
+
+Output:
+
+Maths
+
+--------------------------------------------------
+
+5. Tuple Slicing
+
+Used to get multiple items from a tuple.
+
+Syntax:
+
+tuple[start:stop]
+
+Remember:
+
+✓ Start Included
+✓ Stop Excluded
+
+Example:
+
+subjects = ("Python", "DSA", "Maths")
+
+print(subjects[:2])
+
+Output:
+
+('Python', 'DSA')
+
+--------------------------------------------------
+
+6. count()
+
+Returns how many times a value appears.
+
+Example:
+
+numbers = (10, 20, 10, 30, 10)
+
+print(numbers.count(10))
+
+Output:
+
+3
+
+--------------------------------------------------
+
+7. index()
+
+Returns the first index of a value.
+
+Example:
+
+subjects = ("Python", "DSA", "Maths")
+
+print(subjects.index("DSA"))
+
+Output:
+
+1
+
+--------------------------------------------------
+
+8. Dictionary
+
+Dictionary stores data in Key : Value pairs.
+
+Example:
+
+student = {
+    "name": "Prince",
+    "age": 20,
+    "course": "BCA"
+}
+
+--------------------------------------------------
+
+9. Dictionary Rules
+
+• Dictionary uses curly brackets { }
+• Data is stored as Key : Value
+• Dictionary is mutable
+• Keys should be unique
+
+--------------------------------------------------
+
+10. Access Dictionary Values
+
+Values are accessed using keys.
+
+Example:
+
+print(student["name"])
+
+Output:
+
+Prince
+
+--------------------------------------------------
+
+11. Update Dictionary
+
+Dictionary values can be changed.
+
+Example:
+
+student["age"] = 21
+
+--------------------------------------------------
+
+12. Add New Key
+
+Example:
+
+student["city"] = "Pilibanga"
+
+--------------------------------------------------
+
+13. Dictionary Methods
+
+keys()
+
+Returns all keys.
+
+values()
+
+Returns all values.
+
+items()
+
+Returns both keys and values.
+
+get()
+
+Safely returns the value of a key.
+
+If key is not found, it returns None.
+
+--------------------------------------------------
+
+14. Day 9 Master Program
+
+Topics Used:
+
+✓ Tuple
+✓ Tuple Indexing
+✓ Tuple Slicing
+✓ count()
+✓ index()
+✓ Dictionary
+✓ Dictionary Access
+✓ Dictionary Update
+✓ keys()
+✓ values()
+✓ items()
+✓ get()
+
+--------------------------------------------------
+
+15. Project 6
+
+Project Name:
+
+Student Information Manager
+
+Features:
+
+• Tuple Operations
+• Dictionary Operations
+• Student Information
+• Update Age
+• Add City
+• Display Keys
+• Display Values
+• Display Items
+
+--------------------------------------------------
+
+DAY 9 SUMMARY
+
+✓ Tuple
+✓ Tuple Indexing
+✓ Negative Indexing
+✓ Tuple Slicing
+✓ count()
+✓ index()
+✓ Dictionary
+✓ Dictionary Access
+✓ Dictionary Update
+✓ keys()
+✓ values()
+✓ items()
+✓ get()
+✓ Day 9 Master Program
+✓ Student Information Manager Project
