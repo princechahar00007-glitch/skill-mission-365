@@ -1559,3 +1559,208 @@ DAY 9 SUMMARY
 ✓ get()
 ✓ Day 9 Master Program
 ✓ Student Information Manager Project
+
+====================================
+PYTHON DAY 10
+====================================
+
+TODAY I LEARN:-
+
+--------------------------------------------------
+
+1. Set
+
+A Set is used to store multiple values in a single variable.
+
+Set is created using curly brackets { }.
+
+Example:
+
+fruits = {"Apple", "Banana", "Mango"}
+
+--------------------------------------------------
+
+2. Set Rules
+
+• Set uses curly brackets { }
+• Duplicate values are not allowed
+• Set is unordered
+• Set does not support indexing
+
+Example:
+
+numbers = {10, 20, 10, 30}
+
+Output:
+
+{10, 20, 30}
+
+--------------------------------------------------
+
+3. add()
+
+Adds a new item to the set.
+
+Example:
+
+fruits.add("Orange")
+
+--------------------------------------------------
+
+4. remove()
+
+Removes an item from the set.
+
+If the item is not found,
+Python gives an error.
+
+Example:
+
+fruits.remove("Apple")
+
+--------------------------------------------------
+
+5. discard()
+
+Removes an item from the set.
+
+If the item is not found,
+No error is generated.
+
+Example:
+
+fruits.discard("Apple")
+
+--------------------------------------------------
+
+6. clear()
+
+Removes all items from the set.
+
+Example:
+
+fruits.clear()
+
+--------------------------------------------------
+
+7. Function
+
+A Function is a reusable block of code.
+
+It helps avoid writing the same code again and again.
+
+Syntax:
+
+def function_name():
+    statements
+
+function_name()
+
+--------------------------------------------------
+
+8. Function Advantages
+
+• Code Reuse
+• Less Repetition
+• Easy to Read
+• Easy to Maintain
+
+--------------------------------------------------
+
+9. Parameters
+
+Parameters are used to send data into a function.
+
+Example:
+
+def greet(name):
+    print("Hello", name)
+
+greet("Prince")
+
+--------------------------------------------------
+
+10. Multiple Parameters
+
+A function can receive more than one parameter.
+
+Example:
+
+def student(name, course):
+    print(name, course)
+
+--------------------------------------------------
+
+11. Return Statement
+
+The return keyword sends a value back from a function.
+
+Example:
+
+def add(a, b):
+    return a + b
+
+answer = add(10, 20)
+
+print(answer)
+
+--------------------------------------------------
+
+12. Difference
+
+print()
+
+• Displays output only.
+
+return
+
+• Sends value back.
+• Can be stored in a variable.
+• Can be reused later.
+
+--------------------------------------------------
+
+13. Day 10 Master Program
+
+Topics Used:
+
+✓ Set
+✓ add()
+✓ discard()
+✓ Functions
+✓ Parameters
+✓ Return
+
+--------------------------------------------------
+
+14. Project 7
+
+Project Name:
+
+Student Result Analyzer
+
+Features:
+
+• Set Operations
+• Functions
+• Parameters
+• Return Statement
+• Total Marks
+• Percentage
+• Pass / Fail Result
+
+--------------------------------------------------
+
+DAY 10 SUMMARY
+
+✓ Set
+✓ Set Rules
+✓ add()
+✓ remove()
+✓ discard()
+✓ clear()
+✓ Function
+✓ Parameters
+✓ Return
+✓ Day 10 Master Program
+✓ Student Result Analyzer Project
