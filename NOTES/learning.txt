@@ -1764,3 +1764,237 @@ DAY 10 SUMMARY
 ✓ Return
 ✓ Day 10 Master Program
 ✓ Student Result Analyzer Project
+
+====================================
+PYTHON DAY 11
+====================================
+
+TODAY I LEARN:-
+
+--------------------------------------------------
+
+1. Module
+
+A Module is a Python file that contains
+ready-made functions and variables.
+
+Modules help us reuse code.
+
+Example:
+
+import math
+
+--------------------------------------------------
+
+2. import Keyword
+
+The import keyword is used to use a module.
+
+Syntax:
+
+import module_name
+
+Example:
+
+import math
+
+--------------------------------------------------
+
+3. math Module
+
+The math module provides mathematical
+functions and constants.
+
+Example:
+
+import math
+
+--------------------------------------------------
+
+4. sqrt()
+
+Returns the square root of a number.
+
+Example:
+
+math.sqrt(25)
+
+Output:
+
+5.0
+
+--------------------------------------------------
+
+5. factorial()
+
+Returns the factorial of a number.
+
+Example:
+
+math.factorial(5)
+
+Output:
+
+120
+
+--------------------------------------------------
+
+6. ceil()
+
+Rounds a decimal number upward.
+
+Example:
+
+math.ceil(5.2)
+
+Output:
+
+6
+
+--------------------------------------------------
+
+7. floor()
+
+Rounds a decimal number downward.
+
+Example:
+
+math.floor(5.9)
+
+Output:
+
+5
+
+--------------------------------------------------
+
+8. pi
+
+Returns the value of π (Pi).
+
+Example:
+
+math.pi
+
+Output:
+
+3.141592653589793
+
+--------------------------------------------------
+
+9. random Module
+
+The random module is used to generate
+random values.
+
+Example:
+
+import random
+
+--------------------------------------------------
+
+10. randint()
+
+Returns a random integer.
+
+Example:
+
+random.randint(1, 10)
+
+--------------------------------------------------
+
+11. choice()
+
+Returns a random item from a list or tuple.
+
+Example:
+
+colors = ["Red", "Blue", "Green"]
+
+random.choice(colors)
+
+--------------------------------------------------
+
+12. random()
+
+Returns a random decimal number
+between 0 and 1.
+
+Example:
+
+random.random()
+
+--------------------------------------------------
+
+13. randrange()
+
+Returns a random number from a given range.
+
+Example:
+
+random.randrange(1, 20)
+
+--------------------------------------------------
+
+14. Import Styles
+
+Normal Import
+
+import math
+
+Specific Import
+
+from math import sqrt
+
+Alias Import
+
+import math as m
+
+--------------------------------------------------
+
+15. Day 11 Master Program
+
+Topics Used:
+
+✓ math Module
+✓ random Module
+✓ import
+✓ from import
+✓ alias import
+
+--------------------------------------------------
+
+16. Project 8
+
+Project Name:
+
+Lucky Number Game
+
+Features:
+
+• Random Number Generation
+• User Guess
+• Win / Lose Result
+• Square Root
+• Factorial
+• Pi Value
+
+--------------------------------------------------
+
+DAY 11 SUMMARY
+
+✓ Module
+✓ import
+✓ math Module
+✓ sqrt()
+✓ factorial()
+✓ ceil()
+✓ floor()
+✓ pi
+✓ random Module
+✓ randint()
+✓ choice()
+✓ random()
+✓ randrange()
+✓ Import Styles
+✓ Day 11 Master Program
+✓ Lucky Number Game Project
